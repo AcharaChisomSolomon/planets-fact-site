@@ -48,21 +48,21 @@ export const globalStyles = css`
 
   --fs-h2: calc(40 / 16 * 1rem);
   --h2-line-height: calc(52 / 40);
-  --h2-letter-spacing: -1.5;
+  --h2-letter-spacing: -1.5px;
 
   --fs-h3: calc(12 / 16 * 1rem);
   --h3-line-height: calc(25 / 12);
-  --h3-letter-spacing: 2.6;
+  --h3-letter-spacing: 2.6px;
 
   --fs-h4: calc(11 / 16 * 1rem);
   --h4-line-height: calc(25 / 11);
-  --h4-letter-spacing: 1;
+  --h4-letter-spacing: 1px;
 
   --fs-body: calc(14 / 16 * 1rem);
   --body-line-height: calc(25 / 14);
 
   --fs-temp-header: calc(28 / 16 * 1rem);
-  --temp-letter-spacing: -1.05;
+  --temp-letter-spacing: -1.05px;
 }
 
 /* 1. Use a more-intuitive box-sizing model */

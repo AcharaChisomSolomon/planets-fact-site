@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import * as Dialog from '@radix-ui/react-dialog';
 
+import { QUERIES } from './constants';
 import UnstyledButton from './UnstyledButton';
 import VisuallyHidden from './VisuallyHidden';
 
@@ -116,6 +117,10 @@ const Content = styled(Dialog.Content)`
   top: 0;
   left: 0;
   right: 0;
+
+  @media ${QUERIES.tabletAndLarger} {
+    display: none;
+  }
 `;
 
 const MainHeader = styled.div`
@@ -165,6 +170,7 @@ const NavText = styled.div`
   p {
     font-size: calc(15 / 16 * 1rem);
     letter-spacing: 1.36px;
+    font-weight: bold;
   }
 `;
 

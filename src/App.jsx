@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <Header
+        selectedPlanet={selectedPlanet}
         setSelectedPlanet={setSelectedPlanet}
       ></Header>
       <p>{selectedPlanet}</p>
