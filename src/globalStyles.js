@@ -84,7 +84,6 @@ export const globalStyles = css`
 
 body {
   /* 4. Add accessible line-height */
-  line-height: var(--body-line-height);
   color: var(--c-text-primary);
   font-size: var(--fs-body);
   font-family: "League Spartan";
@@ -117,6 +116,9 @@ h4 {
   line-height: var(--h4-line-height);
   letter-spacing: var(--h4-letter-spacing);
   font-weight: 800;
+}
+p {
+  line-height: var(--body-line-height);
 }
 
 /* 6. Improve media defaults */

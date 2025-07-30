@@ -1,10 +1,16 @@
 // import styled from "@emotion/styled"
+import React from "react"
 import Header from "./Header"
 
 function App() {
+  const [selectedPlanet, setSelectedPlanet] = React.useState('earth')
+
   return (
     <>
-      <Header></Header>
+      <Header
+        setSelectedPlanet={setSelectedPlanet}
+      ></Header>
+      <p>{selectedPlanet}</p>
       <main>
         <section>
           <div></div>
